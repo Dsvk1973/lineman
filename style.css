@@ -226,13 +226,24 @@ a:hover {
     background-size: cover;
     background-position: -.5ch -2ch;
 }
-.Technical1 {
-    grid-area: Technical1;
-    background-color: blue;
+.technical1 {
+    position: relative;
+    max-height: 150px;
+    width: auto;
+    z-index5;
+    justify-content: center;
 }
-.Technical2 {
-    grid-area: Technical2;
-    background-color: blue;
+.Group::after {
+  content: "Me";
+  position: absolute;
+  top: 270px;
+  white-space: pre;
+  right: 50%;
+  transform: translateX(50%);
+  font-weight: bold;
+  font-size: 30px;
+  z-index: 5;
+}
 }
 .Contact {
    position: relative;
