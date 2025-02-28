@@ -68,8 +68,11 @@ ul {
     text-decoration: none;
 }
 a:hover {
-    font-weight: 800;
     opacity: 1;
+    transform: rotate(25deg);
+    transition-duration: 500ms;
+    
+    
 }
 .list {
     background-color: black;
