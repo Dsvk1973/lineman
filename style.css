@@ -68,10 +68,16 @@ ul {
     text-decoration: none;
 }
 a:hover {
-    opacity: 1;
-    transform: rotate(25deg);
-    transition-duration: 500ms;
     
+    opacity: 1;
+    transform: rotate(5deg);
+    transition-duration: 1000ms;
+    
+}
+nav a:hover { 
+    color: yellow;
+    transform: rotate(10deg);
+}
     
 }
 .list {
