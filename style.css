@@ -5,7 +5,7 @@ nav {
     font-size: 40px;
     text-shadow: 1px 51x;
     justify-content: space-around;
-    width: 100%;
+    width: 100vh;
 }
 body {
     text-align: center;
