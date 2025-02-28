@@ -1,11 +1,13 @@
 nav {
     display: inline-flex;
-    color: white;
+    color: rgb(128, 20, 20);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     text-shadow: 1px 51x;
     justify-content: space-around;
     width: 75%;
+    
+    
 }
 body {
     text-align: center;
@@ -78,8 +80,6 @@ nav a:hover {
     color: yellow;
     transform: rotate(10deg);
 }
-    
-}
 .list {
     background-color: black;
     border: 2px rgb(224, 190, 190) solid;
@@ -113,6 +113,8 @@ nav a:hover {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
+    height: 80%;
+    width: auto;
 }
 
 .pics {
@@ -168,7 +170,8 @@ nav a:hover {
     display: grid;
     grid-template-areas: "Person1 Person2"
                          "Group Group"
-                         "Person3 Person4";
+                         "Person3 Person4"
+                         ;
     grid-template-rows: 200px 300px 200px 100px;
     grid-template-columns: 50vw 50vw;
     font-size: 50px;
@@ -178,6 +181,7 @@ nav a:hover {
     text-align: center;
     color: white;
     justify-content: center;
+    
 }
 
 
@@ -221,7 +225,7 @@ nav a:hover {
     width: auto;
     max-height: 200px;
     object-fit: cover;
-    background-image: url("good-looking-bearded-man-drinking-coffee-by-river-park.jpg");
+    background-image : url("good-looking-bearded-man-drinking-coffee-by-river-park.jpg");
     background-size: cover;
     background-position: end;
     text-align: left;
@@ -241,7 +245,7 @@ nav a:hover {
     position: relative;
     max-height: 150px;
     width: auto;
-    z-index5;
+    z-index = 3;
     justify-content: center;
 }
 .Group::after {
@@ -253,17 +257,16 @@ nav a:hover {
   transform: translateX(50%);
   font-weight: bold;
   font-size: 30px;
-  z-index: 5;
+  z-index = 5;
 }
-
 .Contact {
    position: relative;
    font-size: larger;
    color: white;
    text-shadow: 5ch black;
    background-color: rgb(9, 15, 12);
-   width: 200px;
-   height: auto;
+   width : 200px;
+   height : auto;
    display: inline-block;
    border-radius: 5px;
 }
