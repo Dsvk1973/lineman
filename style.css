@@ -134,8 +134,32 @@ nav a:hover {
     margin: 20px;
     object-fit: fill;
 }
-.pics:hover {
-    transform: rotate(5deg)
+ .imgdescription {
+    position: absolute
+    font-size : 60px;
+    color : black;
+    background-color : white;
+    
+    visibility : hidden;
+    opacity : 0;
+}
+p {
+    font-size: 20px;
+}
+.pics:hover .imgdescription {
+    transform: rotate(5deg);
+    visibility: visible;
+    opacity: 1;
+    transition: opacity ease-in .5s;
+}
+#highlight {
+    color: rgb(245, 244, 244);
+    font-weight : bolder;
+    text-align : center;
+    text-shadow: 1px 1px rgb(16, 14, 14);
+}
+pics:hover {
+    transform: rotate(5deg);
 }
 .one {
     color: rgb(246, 246, 246);
