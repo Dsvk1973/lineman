@@ -158,8 +158,7 @@ p {
     text-align : center;
     text-shadow: 1px 1px rgb(16, 14, 14);
 }
-pics:hover {
-    transform: rotate(5deg);
+
 }
 .one {
     color: rgb(246, 246, 246);
