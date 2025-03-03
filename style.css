@@ -12,7 +12,7 @@ nav {
     font-size: 40px;
     text-shadow: 1px 51x;
     justify-content: space-around;
-    max-width: 50%;
+    max-width: 80%;
     
     
 }
@@ -84,8 +84,7 @@ a:hover {
     
 }
 nav a:hover { 
-    color: yellow;
-    transform: rotate(10deg);
+    
 }
 .list {
     background-color: black;
@@ -147,10 +146,11 @@ p {
     font-size: 20px;
 }
 .pics:hover .imgdescription {
-    transform: rotate(5deg);
+
+    
     visibility: visible;
     opacity: 1;
-    transition: opacity ease-in .5s;
+    
 }
 #highlight {
     color: rgb(245, 244, 244);
@@ -314,8 +314,7 @@ p {
     }
     nav a:hover { 
     }
-    nav a:active {color: yellow;
-    
+    nav a:active {
     }
     .pics:hover .imgdescription {
     } 
