@@ -79,8 +79,8 @@ ul {
 a:hover {
     
     opacity: 1;
-    transform: rotate(5deg);
-    transition-duration: 1000ms;
+    
+    
     
 }
 nav a:hover { 
