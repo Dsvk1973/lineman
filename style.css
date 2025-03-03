@@ -80,12 +80,13 @@ ul {
 a:hover {
     
     opacity: 1;
-    
-    
+    transform: rotate(5deg);
+    transition-duration: 1000ms;
     
 }
 nav a:hover { 
-    
+    color: yellow;
+    transform: rotate(10deg);
 }
 .list {
     background-color: black;
@@ -147,10 +148,15 @@ p {
     font-size: 20px;
 }
 .pics:hover .imgdescription {
+    
+    opacity: 1;
+    transform: rotate(5deg);
+    visibility: visible;
+    
+}
 
     
-    visibility: visible;
-    opacity: 1;
+   
     
 }
 #highlight {
@@ -316,12 +322,16 @@ p {
     nav a:hover { 
     }
     nav a:active {
+        color: yellow;
+    transform: rotate(10deg);
     }
     .pics:hover .imgdescription {
-    } 
-    .pics:active .imgdescription {
-        
+       
+        }
     
+    .pics:active .imgdescription {
+    font-size: 2em;    
+    transform: rotate(5deg);
     visibility: visible;
     opacity: 1;
     }
