@@ -303,7 +303,7 @@ p {
    display: inline-block;
    border-radius: 5px;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1080px) {
     p {
         font-size: 55px;
         )
