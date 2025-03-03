@@ -305,6 +305,18 @@ p {
 }
 @media only screen and (max-width: 1200px) {
     p {
-        font-size: 60px;
+        font-size: 55px;
         )
-        )
+    a:hover {
+    }
+    a:active {
+                opacity: 1;
+                transform: rotate(5deg);
+                transition-duration: 1000ms;
+    }
+    nav a:hover { 
+    }
+    nav a:active {color: yellow;
+    transform: rotate(10deg);
+    }
+}
