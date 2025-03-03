@@ -319,4 +319,12 @@ p {
     nav a:active {color: yellow;
     transform: rotate(10deg);
     }
+    .pics:hover .imgdescription {
+    } 
+    .pics:active .imgdescription {
+        
+    transform: rotate(5deg);
+    visibility: visible;
+    opacity: 1;
+    }
 }
