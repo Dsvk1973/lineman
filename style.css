@@ -310,26 +310,17 @@ p {
    display: inline-block;
    border-radius: 5px;
 }
-@media all and (max-width: 1080px) {
+@media all and (max-width: 1080px), portrait {
     
-    a:hover {
+    a:hover {opacity: 1;
     }
-    a:active {
-                opacity: 1;
-                
-               
-    }
+    
     nav a:hover { 
-    }
-    nav a:active {
         color: yellow;
-    transform: rotate(10deg);
+        transform: rotate(10deg)
     }
-    .pics:hover .imgdescription {
-       
-        }
     
-    .pics:active .imgdescription {
+    .pics:hover .imgdescription  {
     font-size: 2em;    
     transform: rotate(5deg);
     visibility: visible;
