@@ -129,7 +129,7 @@ nav a:hover {
 .pics {
     height: 25vh;
     width: 33vh;
-    
+    font-size: 20px;
    
     background-color: aliceblue;
     padding: 20px;
@@ -325,7 +325,7 @@ p {
     }
     
     .pics:hover .imgdescription  {
-    font-size: 2em;    
+    font-size: 1.5em;    
     transform: rotate(5deg);
     visibility: visible;
     opacity: 1;
@@ -341,7 +341,7 @@ p {
         transform: rotate(10deg)
     }
     .pics {
-        font-size: 2em;
+        font-size: 1.5em;
     )
     .pics:hover .imgdescription  {
     font-size: 2em;    
