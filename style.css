@@ -13,6 +13,7 @@ nav {
     text-shadow: 1px 51x;
     justify-content: space-around;
     max-width: 80%;
+    margin: 10px;
     
     
 }
@@ -311,6 +312,23 @@ p {
    border-radius: 5px;
 }
 @media all and (max-width: 1080px), portrait {
+    
+    a:hover {opacity: 1;
+    }
+    
+    nav a:hover { 
+        color: yellow;
+        transform: rotate(10deg)
+    }
+    
+    .pics:hover .imgdescription  {
+    font-size: 2em;    
+    transform: rotate(5deg);
+    visibility: visible;
+    opacity: 1;
+    }
+}
+@media all and (max-width: 1080px), landscape {
     
     a:hover {opacity: 1;
     }
