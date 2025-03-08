@@ -315,10 +315,17 @@ p {
    align-content: center;
 }
 @media all and (max-width: 1080px), portrait {
-    
+    nav {
+        font-size: 4em;
+    }
     a:hover {opacity: 1;
     }
-    
+    h2 {
+        font-size: 3em;
+    }
+    h1 {
+        font-size: 5em;
+    }
     nav a:hover { 
         color: yellow;
         transform: rotate(10deg)
@@ -328,7 +335,7 @@ p {
     }
     
     .pics:hover .imgdescription  {
-    font-size: 1.5em;    
+    font-size: 1.25em;    
     transform: rotate(5deg);
     visibility: visible;
     opacity: 1;
