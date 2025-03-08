@@ -302,14 +302,15 @@ p {
 }
 .Contact {
    position: relative;
-   font-size: larger;
+   font-size: 45px;
    color: white;
    text-shadow: 5ch black;
    background-color: rgb(9, 15, 12);
-   width : 200px;
-   height : auto;
+   width : 50%;
+   height : 25vh;
    display: inline-block;
    border-radius: 5px;
+   align-content: center;
 }
 @media all and (max-width: 1080px), portrait {
     
