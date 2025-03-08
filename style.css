@@ -337,22 +337,3 @@ p {
     opacity: 1;
     }
 }
-@media only screen, landscape {
-    
-    a:hover {opacity: 1;
-    }
-    
-    nav a:hover { 
-        color: yellow;
-        transform: rotate(10deg)
-    }
-    .pics {
-        font-size: 1.5em;
-    )
-    .pics:hover .imgdescription  {
-    font-size: 1em;    
-    transform: rotate(5deg);
-    visibility: visible;
-    opacity: 1;
-    }
-}
