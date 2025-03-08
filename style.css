@@ -1,3 +1,7 @@
+html {
+    font-size: 22px;
+}
+
 @font-face {
     font-family: "Permanent Marker", cursive;
   font-weight: 400;
