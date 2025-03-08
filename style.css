@@ -18,7 +18,7 @@ nav {
     justify-content: space-around;
     max-width: 80%;
     margin: 10px;
-    
+    padding: 10px;
     
 }
 body {
@@ -334,7 +334,7 @@ p {
     opacity: 1;
     }
 }
-@media all and (max-width: 1080px), landscape {
+@media only screen, landscape {
     
     a:hover {opacity: 1;
     }
@@ -347,7 +347,7 @@ p {
         font-size: 1.5em;
     )
     .pics:hover .imgdescription  {
-    font-size: 2em;    
+    font-size: 1em;    
     transform: rotate(5deg);
     visibility: visible;
     opacity: 1;
