@@ -164,10 +164,6 @@ p {
     
 }
 
-    
-   
-    
-}
 #highlight {
     color: rgb(245, 244, 244);
     font-weight : bolder;
@@ -175,7 +171,7 @@ p {
     text-shadow: 1px 1px rgb(16, 14, 14);
 }
 
-}
+
 .one {
     color: rgb(246, 246, 246);
     background-image: url(hooverdam.png);
