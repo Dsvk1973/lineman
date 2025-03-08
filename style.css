@@ -21,6 +21,9 @@ nav {
     padding: 10px;
     
 }
+nav a {
+    padding: 5px;
+    margin: 5px;
 body {
     text-align: center
     ;
