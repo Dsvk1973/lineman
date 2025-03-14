@@ -24,8 +24,8 @@ nav {
 
     
 body {
-    text-align: center
-    ;
+    text-align: center;
+    
 }
 .space {
     color: white;
@@ -316,7 +316,7 @@ p {
 }
 @media all and (max-width: 1080px), portrait {
     nav {
-        font-size: 4em;
+        font-size: 3em;
     }
     a:hover {opacity: 1;
     }
