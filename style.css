@@ -317,6 +317,7 @@ p {
 @media all and (max-width: 1080px), portrait {
     nav {
         font-size: 3em;
+        justify-content: center;
     }
     a:hover {opacity: 1;
     }
