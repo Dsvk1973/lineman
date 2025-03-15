@@ -331,6 +331,9 @@ p {
         color: yellow;
         transform: rotate(10deg)
     }
+    .page1 {
+        font-size:2em:
+    }
     .pics {
         font-size: 2em
     }
